@@ -36,4 +36,4 @@ $ rosrun rviz rviz -d `rospack find rosplan_stage_demo`/config/rosplan_stage_dem
 ```
 The floor plan is meant to look something like this:
 
-![image](https://github.com/serge-21/robotics-seach-program/assets/26350015/68178a94-9914-4aff-a845-0f0b75741e6e)
+![image](https://github.com/serge-21/robotics-seach-program/assets/26350015/e9f8600a-c256-4129-abf9-2237281528a4)
