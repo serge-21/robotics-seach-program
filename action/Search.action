@@ -1,0 +1,8 @@
+string room_to_search
+---
+string[] result_string_list
+float32[] result_int_list
+time current_time
+---
+string[] feedback_string_list
+float32[] feedback_int_list
