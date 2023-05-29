@@ -11,7 +11,7 @@ Prerequisits:
 - rosplan_stage_demo package
 
 ---
-NOTE: the package is called second_coursework, you may change that if you wish.
+
 
 Before you start remember to:
 - Change `coco.data` inside the config folder to point to the training set for YOLO
@@ -23,7 +23,7 @@ Before you start remember to:
   - `roscore &`
 
 To run the program just run it like a normal ROS program:
-- In the terminal run the following to start both services:
+- In the terminal run the following to start both services: (Note: the package is called `second_coursework`, you may change that if you wish)
   - `rosrun second_coursework action_client.py`
   - `rosrun second_coursework room_service.py`
 - You may be using either bags or an actual camera attached to a robot. Please note: that the camera topic in the robot (and therefore, in the ROS bags) on which the
