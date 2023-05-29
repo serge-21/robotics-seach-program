@@ -26,7 +26,8 @@ To run the program just run it like a normal ROS program:
 - In the terminal run the following to start both services:
   - `rosrun second_coursework action_client.py`
   - `rosrun second_coursework room_service.py`
-- You may be using either bags or an actual camera attached to a robot.
+- You may be using either bags or an actual camera attached to a robot. Please note: that the camera topic in the robot (and therefore, in the ROS bags) on which the
+images are published is `/camera/image` instead of the `/usb_cam/image_raw` 
 
 NOTE: the floor plan in `scripts/room_service.py` is taken from empty_stage_single_robot in the rosplan_stage_demo package. Once installed you can use the following to view the floor plan
 ```
